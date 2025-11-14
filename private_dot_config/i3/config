@@ -249,5 +249,3 @@ exec_always --no-startup-id blueman-applet
 bindsym $mod+Escape exec /home/$USER/.config/scripts/lock
 # Display Wallpaper
 exec_always feh --bg-fill /home/mmoreno/Pictures/surendra-rajawat-butterflies.png
-# Test
-# Test 2
