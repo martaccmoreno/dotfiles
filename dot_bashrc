@@ -127,4 +127,5 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH="/home/mmoreno/snap/codium/495/.local/share/../bin:$PATH"
 # set nano as default text editor
 export EDITOR="/usr/bin/nano"
-
+# add github username
+export GITHUB_USERNAME="martaccmoreno"
