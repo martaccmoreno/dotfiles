@@ -121,6 +121,7 @@ fi
 alias i3-config="nano ~/.config/i3/config"
 alias polybar-config="sudo nano /etc/polybar/config.ini"
 alias rofi-config="sudo nano ~/.config/rofi/config.rasi"
+alias docker-kill='docker kill $(docker ps | cut -f1 -d" ")'
 # Paths
 export PATH=$HOME/.local/bin:$PATH
 # uv
