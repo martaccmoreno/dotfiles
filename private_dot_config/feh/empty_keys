@@ -7,8 +7,3 @@
 # Each <key> is an X11 keysym (as output by xev) with optional modifier.
 # For instance, C-x would be Ctrl+X, or 4-space Mod4+Space
 
-# and image movement
-scroll_up    J S-Up
-scroll_down  K S-Down
-scroll_left  H S-Left
-scroll_right L S-Right
