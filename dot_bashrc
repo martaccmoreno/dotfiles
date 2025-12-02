@@ -121,6 +121,7 @@ fi
 alias i3-config="chezmoi edit ~/.config/i3/config"
 alias polybar-config="sudo nano /etc/polybar/config.ini"
 alias rofi-config="chezmoi edit ~/.config/rofi/config.rasi"
+alias newsboat-config="chezmoi edit $HOME/snap/newsboat/8579/.newsboat/urls"
 alias docker-kill='docker kill $(docker ps | cut -f1 -d" ")'
 # Paths
 export PATH="$HOME/.local/bin:$PATH"
