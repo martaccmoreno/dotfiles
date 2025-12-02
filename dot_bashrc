@@ -123,12 +123,10 @@ alias polybar-config="sudo nano /etc/polybar/config.ini"
 alias rofi-config="chezmoi edit ~/.config/rofi/config.rasi"
 alias docker-kill='docker kill $(docker ps | cut -f1 -d" ")'
 # Paths
-export PATH=$HOME/.local/bin:$PATH
+export PATH="$HOME/.local/bin:$PATH"
 # uv
-export PATH="/home/mmoreno/snap/codium/495/.local/share/../bin:$PATH"
+export PATH="$HOME/snap/codium/495/.local/share/../bin:$PATH"
 # set nano as default text editor
 export EDITOR="/usr/bin/nano"
 # add github username
 export GITHUB_USERNAME="martaccmoreno"
-# add kitty terminal
-export PATH="/home/mmoreno/.local/kitty.app/bin/:$PATH"
