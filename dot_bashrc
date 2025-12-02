@@ -130,3 +130,5 @@ export PATH="/home/mmoreno/snap/codium/495/.local/share/../bin:$PATH"
 export EDITOR="/usr/bin/nano"
 # add github username
 export GITHUB_USERNAME="martaccmoreno"
+# add kitty terminal
+export PATH="/home/mmoreno/.local/kitty.app/bin/:$PATH"
