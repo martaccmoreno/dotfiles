@@ -1,0 +1,4 @@
+refresh-on-startup yes
+reload-threads 100
+^F set browser "setsid --fork firefox %u > /dev/null 2>&1"; open-in-browser; set browser "xdg-open %u";
+^Q quit
