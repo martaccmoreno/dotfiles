@@ -132,3 +132,5 @@ export PATH="$HOME/snap/codium/495/.local/share/../bin:$PATH"
 export EDITOR="/usr/bin/nano"
 # add github username
 export GITHUB_USERNAME="martaccmoreno"
+# add default browser for some apps e.g. newsboat
+export BROWSER="firefox"
