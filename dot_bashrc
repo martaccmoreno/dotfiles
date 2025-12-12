@@ -124,6 +124,7 @@ alias rofi-config="chezmoi edit --apply ~/.config/rofi/config.rasi"
 alias newsboat-config="chezmoi edit --apply $HOME/snap/newsboat/8579/.newsboat/urls"
 alias docker-kill='docker kill $(docker ps | cut -f1 -d" ")'
 alias calcurse-edit='nano ~/.local/share/calcurse/todo'
+alias gnome-config="env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 # Paths
 export PATH="$HOME/.local/bin:$PATH"
 # uv
