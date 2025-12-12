@@ -1,3 +1,0 @@
-refresh-on-startup yes
-reload-threads 100
-browser "xdg-open -a firefox %u"
