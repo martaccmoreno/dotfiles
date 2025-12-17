@@ -125,7 +125,7 @@ alias docker-kill='docker kill $(docker ps | cut -f1 -d" ")'
 alias calcurse-edit='nano ~/.local/share/calcurse/todo'
 alias gnome-config="env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 alias firefox-config="chezmoi edit --apply /home/mmoreno/snap/firefox/common/.mozilla/firefox/fmijig69.default/user.js"
-alias git-ssh="eval '$(ssh-agent -s)'; ssh-add ~/.ssh/id_github"
+alias github-ssh="eval '$(ssh-agent -s)'; ssh-add ~/.ssh/id_github"
 export PATH="$HOME/.local/bin:$PATH"
 # uv
 export PATH="$HOME/snap/codium/495/.local/share/../bin:$PATH"
