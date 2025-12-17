@@ -234,6 +234,13 @@ user_pref("general.smoothScroll.mouseWheel.durationMinMS", 80); // default=50
 user_pref("general.smoothScroll.currentVelocityWeighting", "0.15"); // default=.25
 user_pref("general.smoothScroll.stopDecelerationWeighting", "0.6"); // default=.4
 
+// PREF: delete cookies, cache, and site data on shutdown
+user_pref("privacy.sanitize.sanitizeOnShutdown", true);
+user_pref("privacy.clearOnShutdown_v2.browsingHistoryAndDownloads", false); // Browsing & download history
+user_pref("privacy.clearOnShutdown_v2.cookiesAndStorage", true); // Cookies and site data
+user_pref("privacy.clearOnShutdown_v2.cache", true); // Temporary cached files and pages
+user_pref("privacy.clearOnShutdown_v2.formdata", true); // Saved form info
+
 /****************************************************************************
  * END: BETTERFOX                                                           *
 ****************************************************************************/
